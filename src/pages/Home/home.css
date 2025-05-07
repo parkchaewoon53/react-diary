@@ -1,0 +1,38 @@
+.input-box {
+  display: flex;
+  width: 60%;
+  height: 40px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.input-text {
+  width: 80%;
+  border: 2px solid hotpink;
+  outline: none;
+  padding: 4px;
+  font-size: 24px;
+}
+
+.input-btn {
+  flex-grow: 1;
+  background-color: hotpink;
+
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.data {
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+
+.data-date {
+  width: 100px;
+}
+
+.data-box {
+  margin-top: 40px;
+}

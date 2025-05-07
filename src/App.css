@@ -13,3 +13,29 @@
   cursor: pointer;
   font-weight: bold;
 }
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 12px 4px;
+}
+
+.logo{
+  width: 200px;
+}
+
+.menu-box{
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  text-decoration: none;
+  color: black;
+  padding: 12px;
+}
+
+.menu:hover{
+  text-decoration: underline;
+}
