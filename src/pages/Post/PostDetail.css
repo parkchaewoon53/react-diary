@@ -1,0 +1,46 @@
+.con{
+    margin: auto;
+    width: 800px;
+    justify-content: center;
+}
+
+.hot-input{
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid hotpink;
+    height: 50px;
+    color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: end;
+}
+
+.btn1{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid hotpink;
+    background-color: white;
+    color: hotpink;
+}
+
+
+.btn2{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid hotpink;
+    background-color: white;
+    color: hotpink;
+}
+
+.h1-post{
+    margin-top: 30px;
+    color: hotpink;
+}

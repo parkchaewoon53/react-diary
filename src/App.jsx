@@ -21,6 +21,9 @@ function App() {
           <Link className="menu" to ="./lotto">
             갬성 로또
           </Link>
+          <Link className="menu" to ="./postwrite">
+            갬성 글쓰기
+          </Link>
         </div>
       </div>
       {/* Home컴포넌트 넣기 */}
@@ -31,7 +34,8 @@ function App() {
 
         <Route path="/lotto" element={<Lotto />}/>
 
-        <Route path="/post" element={<Post />}/>
+        <Route path="/post/*" element={<Post />}/>
+
       </Routes>
     </div>
   );
